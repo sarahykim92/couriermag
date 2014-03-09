@@ -1,3 +1,4 @@
-= wrap_layout :layout do
-  .post
-    = yield
+- if current_article
+  = wrap_layout :layout do
+    .post
+      = yield
