@@ -2,7 +2,9 @@
 # Blog settings
 ###
 
-# Time.zone = "UTC"
+# Time.zone = "UTC
+
+set :build_dir, '/Users/sarahykim92/Dropbox/Apps/Brace/couriermag.brace.io'
 
 activate :blog do |blog|
   # This will add a prefix to all links, template references and source paths
@@ -28,6 +30,8 @@ activate :blog do |blog|
   # blog.per_page = 10
   # blog.page_link = "page/{num}"
 end
+
+
 
 page "/feed.xml", layout: false
 
