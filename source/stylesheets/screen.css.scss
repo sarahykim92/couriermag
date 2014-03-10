@@ -1,0 +1,17 @@
+@charset "utf-8";
+@import "susy";
+@import "compass/reset";
+
+/* Full width grid */
+$total-columns      : 8;             // a 12-column grid
+$column-width       : 4em;            // each column is 4em wide
+$gutter-width       : 0em;            // 1em gutters between columns
+$grid-padding       : 0;              // grid-padding equal to gutters
+$container-style    : fluid;
+
+body { @include container; }
+
+/* Sidebar */
+.sidebar {
+  @include span-columns(3);
+}

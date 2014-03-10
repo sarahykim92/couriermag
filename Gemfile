@@ -10,3 +10,5 @@ gem "middleman-livereload"
 
 # For feed.xml.builder
 gem "builder", "~> 3.0"
+
+gem "susy"
