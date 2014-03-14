@@ -22,5 +22,14 @@
     h3 {
       display: block;
     }
+
+    .meta {
+      font-family: Helvetica Neue, 'Helvetica Neue', Helvetica, sans-serif;
+      padding: 0 0.5em;
+      @include adjust-font-size-to(14px, 1);
+      border: 1px solid rgb(0, 245, 255);
+      display: inline-block;
+      margin: 0.5em 0;
+    }
   }
 }

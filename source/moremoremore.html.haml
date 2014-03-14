@@ -6,5 +6,7 @@
         %img{src: article.metadata[:page]['hero']}
         %h3
           = link_to article.title, article
-          .date= article.date.strftime('%b %e')
+        .meta
+          - if article.metadata[:page]['issue'].present?
+            = "Issue #{article.metadata[:page]['issue']}"
         .article-summary= article.summary(200)

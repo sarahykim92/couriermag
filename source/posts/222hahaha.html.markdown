@@ -4,6 +4,7 @@ date: 2011-01-01
 tags: example
 author: Alyssa Walker Sr.
 hero: http://www.wallpick.com/wp-content/uploads/2014/02/15/Sunset.jpg
+issue: One
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sodales egestas magna sit amet euismod. Suspendisse ullamcorper neque eget quam imperdiet ullamcorper. Donec sit amet mollis leo. Pellentesque sem est, sollicitudin viverra turpis sit amet, pharetra luctus est. Phasellus ut nisi imperdiet, pulvinar ante vitae, adipiscing purus. Cras felis neque, sodales ac gravida eget, rutrum a ante. Morbi enim leo, vestibulum at aliquam et, elementum nec risus. Integer arcu leo, bibendum eget aliquam non, dapibus sed nisi. Nullam eget urna vitae mi imperdiet fringilla sit amet id nibh.
