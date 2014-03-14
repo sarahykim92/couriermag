@@ -19,20 +19,3 @@
     }
   }
 }
-
-.burger {
-  position: absolute;
-  top: 1em;
-  
-  > li {
-    display: none;    
-  }
-
-  &:before {
-    content: "";
-    display: block;
-    width: 2em; height: 2em;
-    background-color: red;
-    position: absolute;
-  }
-}

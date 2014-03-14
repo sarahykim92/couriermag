@@ -10,3 +10,6 @@
           - if article.metadata[:page]['issue'].present?
             = "Issue #{article.metadata[:page]['issue']}"
         .article-summary= article.summary(200)
+
+  %a.more-button{ href: "#more" }
+    view more!

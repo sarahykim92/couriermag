@@ -1,0 +1,10 @@
+.burger {
+  position: absolute;
+  top: 0.8em;
+  width: 2em; height: 2em;
+  font-size: 28px;
+  
+  > li.menu {
+    display: none;    
+  }
+}
