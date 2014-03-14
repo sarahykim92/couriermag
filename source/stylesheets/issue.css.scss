@@ -1,0 +1,25 @@
+.issue {
+  overflow: auto;
+  margin-top: 4em;
+}
+
+.issue-article {
+  position: relative;
+  @include span-columns(8);
+  max-height: 150px;
+  overflow: hidden;
+
+  a {
+    position: absolute;
+    display: block;
+    width: 100%; height: 100%;
+    top: 0; left: 0;
+    color: #fff;
+    text-decoration: none;
+    &:hover { text-decoration: underline; }
+  }
+
+  &:first-child {
+    max-height: 300px;
+  }
+}

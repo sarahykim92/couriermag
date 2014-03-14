@@ -1,0 +1,23 @@
+@include with-grid-settings($total-columns, $column-width, $gutter-width, 2em) {
+  .river {
+    @include margin-leader(2);
+    @include container;
+
+    .title {
+      font-weight: bold;
+      @include margin-trailer(1);
+    }
+  }
+
+  .river-article {
+    float: left;
+    @include span-columns(2);
+    @include nth-omega(4n);
+    @include margin-trailer(1);
+    img { max-width: 100%; }
+
+    h3 {
+      display: block;
+    }
+  }
+}

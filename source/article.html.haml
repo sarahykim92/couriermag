@@ -1,4 +1,11 @@
 - if current_article
   = wrap_layout :layout do
-    .post
+    .article
+      - if current_article.metadata[:page]['hero']
+        %img.hero{src: current_article.metadata[:page]['hero']}
+
+      %h1= current_article.title
       = yield
+
+    .river
+      = partial "river"

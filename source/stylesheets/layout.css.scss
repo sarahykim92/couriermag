@@ -1,0 +1,9 @@
+body { @include container; }
+
+*, *:before, *:after {
+  @include box-sizing('border-box');
+ }
+
+#main {
+  @include span-columns(8);
+}

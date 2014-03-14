@@ -1,0 +1,22 @@
+.article {
+  @include span-columns(8);
+
+  h1,
+  p {
+    @include pre(2);
+    @include span-columns(4);
+    @include trailer(1);
+    img { max-width: 100%; }
+  }
+
+  h1 {
+    font-family: 'Bangla MN', Bangla MN, sans-serif;
+    @include adjust-font-size-to(25px, 1);
+    font-weight: bold;
+    @include leader(1);
+  }
+}
+
+.hero {
+  max-width: 100%;
+}

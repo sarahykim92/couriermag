@@ -1,8 +1,8 @@
 ---
-title: Another Example Article
-date: 2014-01-01
-tags: example, hai
-author: Alyssa Walker Jr.
+title: Example Article
+date: 2011-01-01
+tags: example
+author: Alyssa Walker Sr.
 hero: http://www.wallpick.com/wp-content/uploads/2014/02/15/Sunset.jpg
 ---
 

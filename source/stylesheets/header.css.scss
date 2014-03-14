@@ -1,0 +1,25 @@
+.header {
+  position: fixed;
+  z-index: 99;
+  padding: 1em;
+  @include span-columns(8);
+  h1 { text-align: center; }
+}
+
+.burger {
+  position: absolute;
+  top: 1em;
+  
+
+  > li {
+    display: none;    
+  }
+
+  &:before {
+    content: "";
+    display: block;
+    width: 1em; height: 1em;
+    background-color: red;
+    position: absolute;
+  }
+}
