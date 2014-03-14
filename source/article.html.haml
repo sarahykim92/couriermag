@@ -9,3 +9,7 @@
         = current_article.metadata[:page]['author']
         %span.issue= "Issue " + current_article.metadata[:page]['issue']
       = yield
+
+    = partial "river"
+
+    = partial "featured"

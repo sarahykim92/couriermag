@@ -1,9 +1,10 @@
-.title More More More!
-%ul.river-list
-  - page_articles.each_with_index do |article, i|
-    %li.river-article
-      %img{src: article.metadata[:page]['hero']}
-      %h3
-        = link_to article.title, article
-        .date= article.date.strftime('%b %e')
-      .article-summary= article.summary(200)
+.river
+  .title More More More!
+  %ul.river-list
+    - page_articles.each_with_index do |article, i|
+      %li.river-article
+        %img{src: article.metadata[:page]['hero']}
+        %h3
+          = link_to article.title, article
+          .date= article.date.strftime('%b %e')
+        .article-summary= article.summary(200)
