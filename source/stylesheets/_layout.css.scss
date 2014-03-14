@@ -5,5 +5,6 @@ body { @include container; }
  }
 
 #main {
-  @include span-columns(8);
+  @include span-columns(8 omega);
+  margin-top: 4em;
 }

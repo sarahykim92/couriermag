@@ -1,0 +1,23 @@
+.hand {
+  position: fixed;
+  top: 50%;
+  margin-top: -20px;
+  background-color: yellow;
+  background-color: rgba(255,255,0, 0.7);
+  padding: 0.5em 1em;
+
+  &.left {
+    left: 0;
+    text-align: left;
+  }
+  
+  &.right {
+    right: 0;
+    text-align: right;
+  }
+
+  &:hover {
+    cursor: pointer;
+    background-color: rgba(255,255,0, 1);
+  }
+}
