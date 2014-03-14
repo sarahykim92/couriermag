@@ -1,0 +1,21 @@
+@include with-grid-settings(4, $column-width, 0.5em, 2em) {
+  .featured {
+    border: 1px solid black;
+    margin: 1em;
+    padding: 2em;
+    overflow: auto;
+
+    .title {
+      font-size: 24px;
+      @include margin-trailer(1);
+    }
+
+    .featured-post {
+      @include span-columns(1);
+      @include nth-omega(4n);
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+}

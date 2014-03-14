@@ -1,5 +1,6 @@
 .article {
   @include span-columns(8);
+  @include padding-trailer(4);
 
   h1,
   .meta,
