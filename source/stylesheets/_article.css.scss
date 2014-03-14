@@ -17,6 +17,10 @@
     @include leader(1);
   }
 
+  p {
+    line-height: 170%;
+  }
+
   .meta,
   p {
     @include trailer(1);
