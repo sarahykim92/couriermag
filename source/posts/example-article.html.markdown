@@ -3,13 +3,13 @@ title: Example Article
 date: 2012-01-01
 tags: example
 author: Alyssa Walker
-hero: http://www.wallpick.com/wp-content/uploads/2014/02/15/Sunset.jpg
+hero: http://lorempixel.com/803/1000/
 issue: One
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sodales egestas magna sit amet euismod. Suspendisse ullamcorper neque eget quam imperdiet ullamcorper. Donec sit amet mollis leo. Pellentesque sem est, sollicitudin viverra turpis sit amet, pharetra luctus est. Phasellus ut nisi imperdiet, pulvinar ante vitae, adipiscing purus. Cras felis neque, sodales ac gravida eget, rutrum a ante. Morbi enim leo, vestibulum at aliquam et, elementum nec risus. Integer arcu leo, bibendum eget aliquam non, dapibus sed nisi. Nullam eget urna vitae mi imperdiet fringilla sit amet id nibh.
 
-![asd](http://www.wallpick.com/wp-content/uploads/2014/02/15/Sunset.jpg)
+![asd](http://lorempixel.com/1200/700/)
 
 Pellentesque sed sagittis neque, ac adipiscing urna. Etiam dapibus aliquet neque, non accumsan lorem consequat nec. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed viverra metus sit amet tortor euismod, eu pellentesque metus aliquam. Mauris lacinia, purus vel sodales venenatis, nunc ante faucibus mauris, dapibus fringilla massa nunc eu metus. Maecenas vitae mi auctor, scelerisque justo at, tincidunt nulla. Morbi sit amet interdum metus. Nunc blandit lobortis sapien nec hendrerit. Phasellus porta odio in arcu ullamcorper, vitae iaculis nibh feugiat. Quisque id nulla ultricies, dapibus elit quis, bibendum sapien. Mauris sit amet erat id velit vestibulum dapibus malesuada quis risus. Aenean at malesuada ipsum, ac dapibus mauris.
 

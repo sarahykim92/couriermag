@@ -1,0 +1,7 @@
+{
+  "name": "Courier Mag",
+  "dependencies": {
+    "ded/domready": "*",
+    "danzajdband/vanilla-masonry": "*"
+  }
+}

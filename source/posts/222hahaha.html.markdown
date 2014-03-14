@@ -3,7 +3,7 @@ title: Example Article
 date: 2011-01-01
 tags: example
 author: Alyssa Walker Sr.
-hero: http://www.wallpick.com/wp-content/uploads/2014/02/15/Sunset.jpg
+hero: http://lorempixel.com/1201/700/
 issue: One
 ---
 

@@ -5,12 +5,16 @@
     %meta{content: "IE=edge,chrome=1", "http-equiv" => "X-UA-Compatible"}
     %meta{name: "viewport", content: "width=device-width"}
     %link{rel: "stylesheet", type: "text/css", href: "/stylesheets/screen.css"}
+    %script{src: "/javascripts/jquery.js"}
+    %script{src: "/javascripts/masonry.js"}
+    %script{src: "/javascripts/app.js"}
 
     %title
       Blog Title#{' - ' + current_article.title unless current_article.nil?}
     = feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed"
   
   %body
+
     %header.header
       = partial "header"
           

@@ -12,11 +12,14 @@
     }
   }
 
+  .river-gutter {
+    width: 3%;
+  }
+
   .river-article {
-    float: left;
     @include span-columns(1);
-    @include nth-omega(3n);
-    @include margin-trailer(1);
+    margin-right: 0;
+    margin-bottom: 1em;
     img { max-width: 100%; }
 
     h3 {
