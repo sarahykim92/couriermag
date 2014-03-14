@@ -1,7 +1,10 @@
-@include with-grid-settings($total-columns, $column-width, $gutter-width, 2em) {
+@include with-grid-settings(3, $column-width, 0.5em, 2em) {
   .river {
-    @include margin-leader(2);
     @include container;
+    overflow: auto;
+    @include padding-leader(1);
+    @include margin-leader(2);
+    border-top: 1px solid #000;
 
     .title {
       font-weight: bold;
@@ -11,8 +14,8 @@
 
   .river-article {
     float: left;
-    @include span-columns(2);
-    @include nth-omega(4n);
+    @include span-columns(1);
+    @include nth-omega(3n);
     @include margin-trailer(1);
     img { max-width: 100%; }
 

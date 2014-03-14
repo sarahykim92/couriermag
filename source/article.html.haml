@@ -5,6 +5,9 @@
         %img.hero{src: current_article.metadata[:page]['hero']}
 
       %h1= current_article.title
+      .meta
+        = current_article.metadata[:page]['author']
+        %span.issue= "Issue " + current_article.metadata[:page]['issue']
       = yield
 
     .river

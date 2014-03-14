@@ -1,6 +1,7 @@
 @charset "utf-8";
-@import "susy";
+@import "compass";
 @import "compass/reset";
+@import "susy";
 
 /* Full width grid */
 $total-columns      : 8;             // a 12-column grid
