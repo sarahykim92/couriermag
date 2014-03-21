@@ -5,6 +5,7 @@ tags: example
 author: Alyssa Walker Sr.
 hero: /images/issue/content_1_inactive.png
 hero_alternate: /images/issue/content_1_active.png
+thumb: /images/thumbs/blog1.png
 issue: One
 ---
 

@@ -5,6 +5,7 @@ tags: example, hai
 author: Alyssa Walker Jr.
 hero: /images/issue/content_2_inactive.png
 hero_alternate: /images/issue/content_2_active.png
+thumb: /images/thumbs/blog2.png
 issue: One
 ---
 

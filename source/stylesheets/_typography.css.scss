@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Monoxil';
+  src: url('/font/Monoxil.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   font-family: $font-family;
 }
