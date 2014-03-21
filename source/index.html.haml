@@ -1,10 +1,12 @@
 .issue
+  .banner
+    %img{ src: "/images/issue/home_banner.gif" }
+
   - page_articles.each_with_index do |article, i|
     .issue-article
+      = link_to "", article
       - if article.metadata[:page]['hero']
         %img.hero{src: article.metadata[:page]['hero']}
-      %h2
-        = link_to article.title, article
-        %span= article.date.strftime('%b %e')
+        %img.hero.active{src: article.metadata[:page]['hero_alternate']}
 
 = partial "featured"

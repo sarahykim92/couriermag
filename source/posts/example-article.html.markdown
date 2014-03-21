@@ -3,7 +3,8 @@ title: Example Article
 date: 2012-01-01
 tags: example
 author: Alyssa Walker
-hero: http://lorempixel.com/803/1000/
+hero: /images/issue/content_3_inactive.png
+hero_alternate: /images/issue/content_3_active.png
 issue: One
 ---
 

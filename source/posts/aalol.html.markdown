@@ -3,7 +3,8 @@ title: Another Example Article
 date: 2014-01-01
 tags: example, hai
 author: Alyssa Walker Jr.
-hero: http://lorempixel.com/1202/700/
+hero: /images/issue/content_2_inactive.png
+hero_alternate: /images/issue/content_2_active.png
 issue: One
 ---
 

@@ -1,9 +1,10 @@
 ---
 title: Example Article
-date: 2012-01-01
+date: 2011-01-01
 tags: example
 author: Alyssa Walker
-hero: http://lorempixel.com/804/1200/
+hero: /images/issue/content_4_inactive.png
+hero_alternate: /images/issue/content_4_active.png
 issue: One
 ---
 

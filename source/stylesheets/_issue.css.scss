@@ -1,12 +1,28 @@
 .issue {
-  overflow: auto;
+  overflow: hidden;
+  max-width: 50em;
+  margin: auto;
+
+  .banner {
+    text-align: center;
+    img {
+      max-width: 100%;
+    }
+  }
 }
 
 .issue-article {
   position: relative;
-  @include span-columns(8);
-  max-height: 150px;
   overflow: hidden;
+  text-align: center;
+
+  .hero { display: block; }
+  .hero.active { display: none; }
+
+  &:hover {
+    .hero { display: none; }
+    .hero.active { display: block; }
+  }
 
   a {
     position: absolute;

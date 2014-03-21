@@ -2,7 +2,8 @@
   = wrap_layout :layout do
     .article
       - if current_article.metadata[:page]['hero']
-        %img.hero{src: current_article.metadata[:page]['hero']}
+        .hero-image
+          %img.hero{src: current_article.metadata[:page]['hero']}
 
       %h1= current_article.title
       .meta
@@ -13,3 +14,5 @@
     = partial "moremoremore"
 
     = partial "featured"
+
+    = partial "hands"

@@ -2,6 +2,10 @@
   @include span-columns(8);
   @include padding-trailer(4);
 
+  .hero-image {
+    text-align: center;
+  }
+
   h1,
   .meta,
   p {
