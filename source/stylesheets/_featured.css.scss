@@ -5,10 +5,11 @@
     padding: 2em;
     overflow: auto;
     font-family: 'Monoxil';
+    @include margin-leader(5);
 
     .title {
       color: blue;
-      font-size: 24px;
+      font-size: 36px;
       @include margin-trailer(1);
     }
 
